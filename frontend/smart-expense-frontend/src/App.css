@@ -1,0 +1,134 @@
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2f3640;
+  margin-bottom: 30px;
+}
+
+/* Form styling */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.form-container input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #dcdde1;
+  flex: 1 1 150px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #44bd32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #4cd137;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+table th {
+  background-color: #40739e;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f1f2f6;
+}
+
+table tr:hover {
+  background-color: #dcdde1;
+}
+
+/* Buttons */
+.button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  margin: 0 3px;
+  transition: 0.3s;
+}
+
+.update-btn {
+  background-color: #e1b12c;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+.update-btn:hover {
+  background-color: #fbc531;
+}
+
+.delete-btn {
+  background-color: #e84118;
+  border-radius: 6px;
+}
+
+.delete-btn:hover {
+  background-color: #ff6b6b;
+}
+
+/* Total row */
+.total-row td {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.charts-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.recommendations {
+  width: 80%;
+  background-color: #f1f2f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.recommendations h2 {
+  margin-bottom: 10px;
+  color: #2f3640;
+}
