@@ -1,6 +1,6 @@
 # SpendWise
 
-**SpendWise** is a modern, user-friendly **Expense Tracker Web Application** that helps users manage their personal finances efficiently. It allows users to **add, update, and delete expenses**, view expenses **category-wise**, and provides a **weekly/monthly breakdown** with total spending. The app is built using **React** for the frontend and **FastAPI + Azure Cosmos DB** for the backend.  
+SpendWise is a modern, full-stack, and user-friendly Expense Tracker Web Application that helps users manage their personal finances efficiently. It allows users to add, update, and delete expenses, view expenses category-wise, and provides a weekly/monthly breakdown with total spending. The app is built using React (Frontend) and FastAPI + Azure Cosmos DB (Backend), making it a complete full-stack solution.
 
 ---
 
